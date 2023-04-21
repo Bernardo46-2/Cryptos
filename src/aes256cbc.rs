@@ -2,8 +2,7 @@ use std::fs;
 use std::io;
 
 use crate::consts::*;
-use crate::utils;
-use crate::utils::{EncryptMode, rand_bytes};
+use crate::utils::{EncryptMode, rand_bytes, prepend_vec};
 use crate::key::Key;
 
 struct AES256CBC;
@@ -196,7 +195,7 @@ impl AES256CBC {
             let previous_block = state[i - 1].clone();
             Self::add_round_key(&key[0..16], &mut state[i]);
             Self::xor_block(&previous_block, &mut state[i]);
-            utils::prepend_vec(&mut decrypted_text, state[i].clone());
+            prepend_vec(&mut decrypted_text, state[i].clone());
         }
 
         Self::remove_padding(&mut decrypted_text);
