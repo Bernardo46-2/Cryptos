@@ -10,8 +10,8 @@ All the implementations are for educational or personal use only and should not 
 - Just run the program with the argumets below
 
 ### Arguments
-- `-e` | `--encrypt` -> takes any number of arguments containing directories of folders to encrypt. (requires `key` or `ǹew-key` arguments)
-- `-d` | `--decrypt` -> takes any number of arguments containing directories of folders to decrypt. (requires `key` argument)
+- `-e` | `--encrypt` -> takes any number of arguments containing directories of folders to encrypt. (requires key or ǹew-key arguments)
+- `-d` | `--decrypt` -> takes any number of arguments containing directories of folders to decrypt. (requires key argument)
 - `-k` | `--key` -> takes a single argument containing the directory of the key to be used (required for decryption)
 - `--new-key` -> takes a single argument containing the directory of the file to where to store a new key that will be created (can be used without any other arguments)
 
