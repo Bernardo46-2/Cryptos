@@ -21,4 +21,5 @@ All the implementations are for educational or personal use only and should not 
 - The program accepts glob patterns, so "test/*.txt" type stuff are allowed as arguments.
 
 ### TODO
-- AES GCM next (?)
+- AES 256 GCM
+- SHA 256
