@@ -1,5 +1,5 @@
 # Cryptos
-Some cryptography implementations in rust.  
+Some cryptography implementations in rust (and maybe some other languages eventually).  
 This is mainly for fun and for learning how some cryptography methods works.
 
 ## Disclaimer
