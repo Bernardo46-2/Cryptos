@@ -23,4 +23,5 @@ All the implementations are for educational or personal use only and should not 
 
 ### TODO
 - All AES modes
+- Write a proper random number generator
 - Some Hashs.. idk ciphers are cooler
